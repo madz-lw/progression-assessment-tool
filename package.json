@@ -1,0 +1,18 @@
+{
+  "name": "level-up",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "framework": "python3 scripts/extract_framework.py"
+  },
+  "dependencies": {
+    "xlsx": "0.18.5"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

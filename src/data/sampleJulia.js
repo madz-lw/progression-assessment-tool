@@ -1,0 +1,7 @@
+// Fictional demo player. Ratings are scored against the real Software Engineer framework.
+export const julia = () => ({name:"Julia", role:"Software Engineer", practice:"Software & Applied AI Engineering", level:"8: Mid", sample:true, done:{}, notes:{},
+    ratings:{"s:Availability, robustness and capacity management":"Met","s:Information security":"Partially Met","s:Modern standards approach":"Met","s:Programming and build (software engineering)":"Exceeding","s:Prototyping":"Met","s:Systems design":"Partially Met","s:Systems integration":"Exceeding","s:User focus":"Met",
+      "b:Developing your craft":"Met","b:Supporting and Developing Others":"Exceeding","b:Communicating and Collaborating":"Partially Met","b:Owning and delivering":"Exceeding","b:Navigating scope and complexity":"Partially Met"},
+    evidence:{"s:Systems design":"Built the notifications service for a housing repairs app. The code was solid, but I started building before the design was agreed and we had to rework the queueing approach after the architect's review.",
+      "b:Communicating and Collaborating":"I work well within the engineering team, but my line manager noted I tend to go quiet in client show and tells and let the tech lead explain my work.",
+      "s:Programming and build (software engineering)":"Delivered 40+ stories across two services, introduced contract tests that cut integration bugs by half, and mentored our junior engineer through her first production release."}});
